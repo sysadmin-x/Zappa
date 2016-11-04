@@ -112,7 +112,8 @@ ATTACH_POLICY = """{
         {
             "Effect": "Allow",
             "Action": [
-                "lambda:InvokeFunction"
+                "lambda:InvokeFunction",
+                "lambda:CreateFunction"
             ],
             "Resource": [
                 "*"
